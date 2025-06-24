@@ -1,1 +1,19 @@
-spring.application.name=ServiceFilmDetails
+spring:
+  application:
+    name: ServiceFilmDetails
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: Den/25362004
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  flyway:
+    enabled: false
+server:
+  port: 8087
+servicedb:
+  api:
+    url: http://localhost:8081/api

@@ -1,4 +1,4 @@
-package com.example.reviewservice.config;
+package com.example.servicefilmdetails.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
